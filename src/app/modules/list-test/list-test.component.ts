@@ -5,4 +5,6 @@ import { NgModule, Component } from "@angular/core";
   selector: "list-test",
   templateUrl: "list-test.component.html"
 })
-export class ListTestComponent {}
+export class ListTestComponent {
+  testArray = ["a", "b", "c"];
+}
